@@ -1,0 +1,247 @@
+/*body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    color: #007bff;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.search-bar input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.article-list {
+    padding: 20px;
+}
+
+.article {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.article .main-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.article .content {
+    margin-left: 20px;
+}
+
+.article .content h2 {
+    margin: 0 0 10px;
+    color: #007bff;
+}
+
+.article .content p {
+    margin: 0 0 10px;
+}
+
+.article .tags span {
+    background-color: #f1f1f1;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .header {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .search-bar {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    font-size: 1em;
+    width: 80%;
+    max-width: 600px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .article-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .article {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    max-width: 300px;
+  }
+  
+  .article img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .article .content {
+    padding: 10px;
+  }
+  
+  .article h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .article p {
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  .article .tags {
+    margin-top: 10px;
+  }
+  
+  .article .tags span {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 2px;
+    padding: 4px 8px;
+    font-size: 0.8em;
+  }
+  
+  .article a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .article a:hover {
+    text-decoration: underline;
+  }*/
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .header {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .search-bar {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    font-size: 1em;
+    width: 80%;
+    max-width: 600px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .article-list {
+    display: flex;
+    flex-direction: column; /* จัดเรียงเป็นแถวลงมา */
+    align-items: center; /* จัดกึ่งกลางแนวนอน */
+    margin-top: 20px;
+  }
+  
+  .article {
+    display: flex;
+    border: 2px solid #fff; /* กำหนดสีขอบของกล่องเป็นสีขาว */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    width: 95%; /* กำหนดความกว้างของกล่องเท่ากับ 95% ของพื้นที่ของหน้าจอ */
+    max-width: 1200px; /* กำหนดความกว้างสูงสุดของกล่อง */
+    background-color: #fff; /* กำหนดสีพื้นหลังของกล่องเป็นสีขาว */
+    height: 200px; /* เพิ่มความสูงของกล่องเพื่อให้มีพื้นที่เพียงพอสำหรับรูปภาพ */
+  }
+  
+  .article img {
+    max-width: 50%;
+    max-height: 180px; /* เพิ่มความสูงสูงสุดของรูปภาพ */
+    border-radius: 8px;
+  }
+  
+  .article .content {
+    flex: 1; /* ให้ส่วนเนื้อหาขยายเต็มขนาด */
+    padding: 10px;
+  }
+  
+  .article h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .article p {
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  .article .tags {
+    margin-top: 10px;
+  }
+  
+  .article .tags span {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 2px;
+    padding: 4px 8px;
+    font-size: 0.8em;
+  }
+  
+  .article a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .article a:hover {
+    text-decoration: underline;
+  }
